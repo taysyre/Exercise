@@ -1,0 +1,53 @@
+/* Selects all elements */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header, main, footer */
+header, main, footer {
+    min-width: 100%;
+}
+/* Display: inline-flex */
+header, .menu-list {
+    display: inline-flex;
+
+}
+
+header, footer {
+    background-color: rgb(32, 12, 253);
+}
+
+header img { 
+    width: 5em;
+    border-radius: 2.5em;
+}
+h2{
+    background-color: blue;
+}
+h3 {
+    background-color: black;
+    color: white;
+  }
+  
+
+/* menu */
+.menu {
+    margin-left: auto;
+    align-        
+}
+
+/* .menu-list */
+.menu-list {
+    list-style: none; /*removes bullets*/
+}
+
+.menu-list li {
+    padding: 0 5px;
+}
+
+/* footer */
+footer p {
+    font-weight: bold;
+}
